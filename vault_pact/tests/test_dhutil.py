@@ -1,7 +1,8 @@
 import os
 
-import pytest
 from cryptography.hazmat.primitives.asymmetric.x25519 import X25519PrivateKey
+
+import pytest
 
 from vault_pact.dhutil import (
     Envelope, PublicKeyInfo, decrypt_aes, encrypt_aes,

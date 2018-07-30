@@ -39,7 +39,7 @@ setup(
         ],
         "lint": [
             "flake8",
-            "isort",
+            "flake8-import-order",
             "pep8-naming",
         ],
     },

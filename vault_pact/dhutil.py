@@ -26,7 +26,7 @@ class PublicKeyInfo:
             _unmarshal_bytes(json_obj["curve25519_public_key"])
         )
 
-    def to_json(self) -> str:
+    def to_json(self):
         return json.dumps(self.__dict__, cls=_BytesEncoder)
 
 

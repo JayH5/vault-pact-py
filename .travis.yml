@@ -5,6 +5,7 @@ python: '3.6'
 before_install: pip install --upgrade pip
 install: pip install tox codecov
 script: tox
+after_success: if [[ $TOXENV == *cover* ]]; then codecov; fi
 
 jobs:
   include:

@@ -5,7 +5,7 @@ vault-pact-py
     :target: https://pypi.org/project/vault-pact
 
 .. image:: https://flat.badgen.net/travis/JayH5/vault-pact-py/master
-    :target: https://travis-ci.org/JayH5/vault-pact-py
+    :target: https://travis-ci.com/JayH5/vault-pact-py
 
 .. image:: https://flat.badgen.net/codecov/c/github/JayH5/vault-pact-py/master
     :target: https://codecov.io/gh/JayH5/vault-pact-py
